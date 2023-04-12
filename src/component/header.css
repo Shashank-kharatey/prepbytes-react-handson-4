@@ -1,0 +1,16 @@
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blue;
+    margin-bottom: 1rem;
+}
+.header-link a{
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}
+.header-link a:hover{
+    background-color: red;
+    color: darkblue;
+}
