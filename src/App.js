@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import EditChange from './Component/EditChange'
-import Home from './Component/Home';
-import Student from './Component/Student';
-import About from './Component/About';
+import EditChange from './RoutingComponents/EditChange'
+import Home from './RoutingComponents/Home';
+import Student from './RoutingComponents/Student';
+import About from './RoutingComponents/About';
 import HeaderComp from './Header/HeaderComp';
 
 
