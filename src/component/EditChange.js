@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Edit() {
+function EditChange() {
   return (
     <div>Update Student Details
       <form>
@@ -25,4 +25,4 @@ function Edit() {
   )
 }
 
-export default Edit
+export default EditChange
