@@ -18,7 +18,7 @@ const Edit = () => {
             <input type="text" /></div>
             
         <Link to="/student"><button>Cancel</button></Link>
-        <Link to="/student"><button type='submit'>Update</button></Link>
+        <Link to="/student"><button type='button'>Update</button></Link>
         </form>
 
     </div>
