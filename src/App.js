@@ -1,10 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Edit from './Component/Edit';
+import Edit from './Component/Edit'
 import Home from './Component/Home';
 import Student from './Component/Student';
-import HeaderComp from './Component/HeaderComp';
+//import HeaderComp from './Component/HeaderComp';
 import About from './Component/About';
+import HeaderComp from './Header/HeaderComp';
 
 
 function App (){
@@ -12,12 +13,12 @@ function App (){
     <div>
       
     <BrowserRouter>
-    <HeaderComp />
+    <HeaderComp/>
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/student" element={<Student />}/>
       <Route path='/about' element={<About/>}/>
-      <Route path="/student/edit" element={<Edit />}/>
+      <Route path='/student/edit' element={<Edit/>}/>
       
     </Routes>
     </BrowserRouter>
