@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import "./Component.css"
 
 const Student = () => {
-  const [Data, setData] = useState({ Name1: "shakif", Age: "12", Course: "mern", Batch: "sept" })
+  const [Data, setData] = useState({ Name1: "shashank", Age: "12", Course: "mern", Batch: "sept" })
   const [arrData, arrDataSet] = useState([])
   const [TrueFalse, setTrueFalse] = useState(false)
   const ChangeHandel = (e) => {
